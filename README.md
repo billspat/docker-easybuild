@@ -1,4 +1,4 @@
-docker-easybuild-centos6
+docker-easybuild
 ========================
 
 This is just [EasyBuild](https://hpcugent.github.io/easybuild/) in a CentOS image, originally from https://github.com/rjeschmi/docker-easybuild-centos6  It pulls from https://github.com/rjeschmi/docker-lmod to get a base LMOD (for Centos7) 
