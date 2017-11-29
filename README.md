@@ -1,7 +1,9 @@
 docker-easybuild-centos6
 ========================
 
-This is just [EasyBuild](https://hpcugent.github.io/easybuild/) in a CentOS image. When you start it up eb should be in your path by default.
+This is just [EasyBuild](https://hpcugent.github.io/easybuild/) in a CentOS image, originally from https://github.com/rjeschmi/docker-easybuild-centos6  It pulls from https://github.com/rjeschmi/docker-lmod to get a base LMOD (for Centos7) 
+
+When you start it up eb should be in your path by default.
 
 ```
 $ docker run --user="build" -ti rjeschmi/easybuild-centos6 /bin/bash
